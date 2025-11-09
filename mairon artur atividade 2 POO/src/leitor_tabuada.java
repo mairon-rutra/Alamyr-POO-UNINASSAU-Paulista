@@ -9,7 +9,7 @@ public class leitor_tabuada {
         System.out.print("Digite o número da tabuada que deseja ler: ");
         int num = sc.nextInt();
 
-        String pasta = "../mairon artur atividade 1 POO/tabuadas";
+        String pasta = "../Alamyr-POO-UNINASSAU-Paulista/tabuadas";
         String nomeArquivo = pasta + File.separator + "tabuada_" + num + ".txt";
         File arquivo = new File(nomeArquivo);
 
