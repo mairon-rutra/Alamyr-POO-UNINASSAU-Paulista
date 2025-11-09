@@ -39,7 +39,7 @@ public class buscarContatinho extends JFrame {
                                 "Categoria: " + c.getCategoria()
                 );
             } else {
-                resultado.setText("❌ Contatinho não encontrado!");
+                resultado.setText(null);
             }
         });
     }
